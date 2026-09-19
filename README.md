@@ -1,6 +1,6 @@
 # U.S. Structured Products Research Project
 
-This beginner-friendly Python project studies U.S. SEC Form 424B2 filings from **January 1, 2016 through September 18, 2026**. It combines:
+This Python project studies U.S. SEC Form 424B2 filings from **January 1, 2016 through September 18, 2026**. It combines:
 
 - an exact census of all Form 424B2 filing metadata;
 - a reproducible issuer-year probability sample for document-text analysis;
