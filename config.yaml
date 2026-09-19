@@ -1,0 +1,33 @@
+project:
+  name: "U.S. Structured Products Market, 2016-2026"
+  start_date: "2016-01-01"
+  end_date: "2026-09-18"
+
+sec:
+  researcher_name: "Nguyen Phan Anh Vu"
+  email: "nguyenphananh.vu@ufl.edu"
+  organization: "University of Florida"
+  requests_per_second: 8.0
+  concurrent_requests: 128
+  timeout_seconds: 60
+  max_retries: 4
+  max_submission_bytes: 750000
+
+pilot:
+  default_limit: 100
+  random_seed: 42
+
+classification:
+  minimum_score: 4
+  save_all_raw_filings: false
+  save_structured_raw_filings: false
+
+analysis:
+  top_issuers: 15
+  top_underlyings: 20
+
+research_sample:
+  top_ciks: 23
+  sample_fraction: 0.04
+  minimum_per_stratum: 50
+  maximum_per_stratum: 250
